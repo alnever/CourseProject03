@@ -111,6 +111,7 @@ result2 <- result2[,lapply(.SD, mean), by=.(Subject, ActivityName)]
 ## Save the 2nd dataset
 
 write.csv(result2, "result2.csv", row.names = FALSE)
+write.table(result2, "result2.txt", row.names = FALSE)
 
 
 
