@@ -247,6 +247,9 @@ Run this script to estimate the dataset #2 from the dataset #1.
     
     write.csv(result2, "result2.csv", row.names = FALSE)
 
+    write.table(result2, "result2.txt", row.names = FALSE)
+
+
 The R-script with name `run_analysis.R` contains both scripts from chapters 3 and 5. To estimate the tidy dataset #2 from the raw data just run this script:
 
     source("run_analysis.R")
