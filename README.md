@@ -11,7 +11,7 @@ by Aleksei Neverov
 6. result2.txt - dataset #2, tidy dataset estimated from the dataset #1 in TXT format
 
 ## Using the script
-1. Copy file run_analisys.R and folder data in your working directory
+1. Copy file **run_analisys.R** and folder **data** in your working directory
 2. Run RGui or RStudio
-3. Run the script using source("run_analysis.R")
+3. Run the script using **source("run_analysis.R")**
 
