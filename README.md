@@ -13,5 +13,6 @@ by Aleksei Neverov
 ## Using the script
 1. Copy file **run_analisys.R** and folder **data** in your working directory
 2. Run RGui or RStudio
-3. Run the script using **source("run_analysis.R")**
+3. Set the directory with file **run_analisys.R** and folder **data** as your working directory using setwd() funtion
+4. Run the script using **source("run_analysis.R")**
 
