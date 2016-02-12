@@ -4,7 +4,7 @@ by Aleksei Neverov
 
 ##Repo content
 1. data - folder with the raw data
-2. CookBook.md - cook book and data dictionary for both datasets of the project
+2. CodeBook.md - cook book and data dictionary for both datasets of the project
 3. run_analysis.R - R-script for creation tidy data set (dataset #2 in project) from the raw data. This script creates the dataset #1 from the raw data, saves it, then read it (this operation may be commented) and create dataset #2
 4. result1.csv - dataset #1 estimated from the raw data
 5. result2.csv - dataset #2, tidy dataset estimated from the dataset #1 in CSV format
@@ -22,7 +22,7 @@ by Aleksei Neverov
 3. Then script reads information about subjects, their activities and features sets associated with the observations. The script does it twice - for train set and for test set. Finally both sets are mergen into one dataset called "Dataset #1"
 4. To estimate tidy data set the script groups data from the dataset #1 by Subjects and ActivityNames and calculates average values of other variables for these groups.
 5. Script creates three files - result1.csv, result2.csv and result2.txt. The last file is the solution of this project.
-Detail description of the datasets and the script are included into the Cook Book. 
+Detail description of the datasets and the script are included into the Code Book. 
 
 
 
